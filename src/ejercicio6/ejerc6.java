@@ -16,16 +16,11 @@ public class ejerc6 {
         System.out.println("ingrese el segundo numero");
         int num2 = leer.nextInt();
 
-        if (num1 > num2) {
+       int mayor=Math.max(num1, num2);
+        System.out.println("el numero mayor es " +mayor);
+        
+        
 
-            System.out.println("el numero : " + num1 + " es mayor que " + num2);
-
-        } else if (num2 > num1) {
-
-            System.out.println("el numero : "  + num2 + " es mayor que " + num1);
-        } else {
-            System.out.println("el numero : " + num1 + " es igual que " + num2);
-
-        }
+        
     }
 }
